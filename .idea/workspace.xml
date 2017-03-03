@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79aa5ee1-2411-4cd3-99bd-449e8f80e456" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/Algorithms.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/CalLowest1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/ExpressionAddOperators.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/FakeCoin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/HoarePatition$FindPivot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/HoarePatition$RandomPivot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/HoarePatition$ThreeNumPivot.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/HoarePatition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/IsomorphicStrings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/MergeSort.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/QuickSelect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/RandomArray.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/ReverseLinkedListII$ListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/ReverseLinkedListII.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/RussianPeasantmethod.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/SiftPeople$Group.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/SiftPeople$Wish.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/SiftPeople.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/SortingAlgorithm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/Sqrtx.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/Sudoku.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/org/wjx/algorithm/ZhiYinShuFenJie.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/HammingDistance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +30,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MedianOfTwoSortedArrays.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MedianOfTwoSortedArrays.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/MedianOfTwoSortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -59,6 +39,16 @@
                 <element signature="docComment;method#findNextNumArray#0;class#MedianOfTwoSortedArrays#0" expanded="false" />
                 <element signature="method#findNextNumArray#0;class#MedianOfTwoSortedArrays#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HammingDistance.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/HammingDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,6 +82,7 @@
         <option value="$PROJECT_DIR$/src/org/wjx/algorithm/decision_tree/BinaryDecision.java" />
         <option value="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/Algorithms.java" />
         <option value="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/MedianOfTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/HammingDistance.java" />
       </list>
     </option>
   </component>
@@ -686,16 +677,16 @@
       <workItem from="1478504353738" duration="787000" />
       <workItem from="1488504286337" duration="108000" />
       <workItem from="1488504429859" duration="105000" />
-      <workItem from="1488504570879" duration="17653000" />
+      <workItem from="1488504570879" duration="18439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31287000" />
+    <option name="totallyTimeSpent" value="32073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -713,7 +704,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18923241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18923241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -825,13 +816,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/decision_tree/BinaryDecision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/decision_tree/NominalDecision.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1233,6 +1217,14 @@
             <element signature="docComment;method#findNextNumArray#0;class#MedianOfTwoSortedArrays#0" expanded="false" />
             <element signature="method#findNextNumArray#0;class#MedianOfTwoSortedArrays#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/HammingDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="4" column="70" lean-forward="false" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
