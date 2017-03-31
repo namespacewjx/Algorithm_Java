@@ -19,7 +19,7 @@ public class PostfixCalculate {
 	 */
 	private static int stackCal(String postfix) {
 		Stack<Integer> stack = new Stack<>();
-		
+
 		for (int i = 0; i < postfix.length(); i++) {
 			char c = postfix.charAt(i);
 
