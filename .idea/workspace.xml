@@ -2,50 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79aa5ee1-2411-4cd3-99bd-449e8f80e456" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/Algorithms.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/CalLowest1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/ExpressionAddOperators.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/FakeCoin.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/HoarePatition$FindPivot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/HoarePatition$RandomPivot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/HoarePatition$ThreeNumPivot.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/HoarePatition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/IsomorphicStrings.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/MedianOfTwoSortedArrays.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/MergeSort.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/QuickSelect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/RandomArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/ReverseLinkedListII$ListNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/ReverseLinkedListII.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/RussianPeasantmethod.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/SiftPeople$Group.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/SiftPeople$Wish.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/SiftPeople.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/SortingAlgorithm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/Sqrtx.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/Sudoku.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/ZhiYinShuFenJie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/decision_tree/BinaryDecision.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/decision_tree/Decision.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/decision_tree/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/io/wicp/namespacewjx/algorithm/decision_tree/NominalDecision.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/Algorithms.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/Algorithms.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/CalLowest1.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/CalLowest1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/CalculateZhishu.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/CalculateZhishu.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/ExpressionAddOperators.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/ExpressionAddOperators.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/FakeCoin.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/FakeCoin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/HammingDistance.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/HammingDistance.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/HoarePatition.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/HoarePatition.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/IsomorphicStrings.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/IsomorphicStrings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/MedianOfTwoSortedArrays.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/MedianOfTwoSortedArrays.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/MergeSort.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/MergeSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/Netease2017LeihuoGameTest.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/Netease2017LeihuoGameTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/Netease2017SpringTest.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/Netease2017SpringTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/NumberComplement.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/NumberComplement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/NumberOfOneBits.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/NumberOfOneBits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/PostfixCalculate.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/PostfixCalculate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/QuickSelect.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/QuickSelect.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/RandomArray.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/RandomArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/RegularExpressionTest.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/RegularExpressionTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/ReverseLinkedListII.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/ReverseLinkedListII.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/RussianPeasantmethod.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/RussianPeasantmethod.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/SiftPeople.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/SiftPeople.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/SortingAlgorithm.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/SortingAlgorithm.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/Sqrtx.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/Sqrtx.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/Sudoku.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/Sudoku.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/Tester.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/Tester.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/ZhiYinShuFenJie.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/ZhiYinShuFenJie.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/decision_tree/BinaryDecision.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/decision_tree/BinaryDecision.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/decision_tree/Decision.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/decision_tree/Decision.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/decision_tree/Node.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/decision_tree/Node.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/decision_tree/NominalDecision.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/decision_tree/NominalDecision.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem104.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem104.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem136.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem136.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem226.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem226.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem344.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem344.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem371.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem371.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem389.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem389.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem412.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem412.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem448.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem448.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem463.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem463.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem485.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem485.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem496.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem496.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem500.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem500.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/io/wicp/namespacewjx/algorithm/leetcode/Problem520.java" afterPath="$PROJECT_DIR$/src/io/github/packagewjx/algorithm/leetcode/Problem520.java" />
     </list>
     <ignored path="Algorithm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,11 +65,9 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -202,9 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,6 +255,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -891,14 +874,15 @@
       <workItem from="1491101172876" duration="4301000" />
       <workItem from="1491134238053" duration="2363000" />
       <workItem from="1491187669656" duration="389000" />
+      <workItem from="1491786351071" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158222000" />
+    <option name="totallyTimeSpent" value="158272000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -906,22 +890,22 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.50852877" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5127932" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.4914712" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.324295" sideWeight="0.3219616" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.48720682" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21908316" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22121535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4002169" sideWeight="0.41684434" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1504,11 +1488,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

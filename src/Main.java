@@ -1,37 +1,23 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
 	public static void main(String[] args) {
-		for (int i = 0; i < 8; i++) {
-			Thread t = new Thread(new DEAD(450, 500));
-			t.start();
-		}
-	}
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+		int k = in.nextInt();
 
-	public static class DEAD implements Runnable {
-		long busyTime;
-		long idleTime;
-
-		public DEAD(long busyTime, long idleTime) {
-			this.busyTime = busyTime;
-			this.idleTime = idleTime;
-		}
-
-		@Override
-		public void run() {
-			while (true) {
-				long start = System.currentTimeMillis();
-				while (System.currentTimeMillis() < start + busyTime);
-				try {
-					Thread.sleep(idleTime);
-				} catch (InterruptedException e) {
-					e.printStackTrace();
-				}
-			}
-		}
+		System.out.println(maxK(n, k));
 	}
 
 
+	public static int maxK(int n, int k) {
+
+
+		for (int i = n / k; i >= 1; i--) {
+			if (i <= n - i * k + 1)
+				return i;
+		}
+		return 0;
+	}
 }
