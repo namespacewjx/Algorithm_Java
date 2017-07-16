@@ -1,5 +1,7 @@
-package io.github.packagewjx.algorithm;
+package io.github.packagewjx.algorithm.leetcode;
 
+import io.github.packagewjx.algorithm.LinkedList;
+import io.github.packagewjx.algorithm.leetcode.TreeNode;
 import sun.reflect.generics.tree.Tree;
 
 import java.util.ArrayList;
@@ -8,16 +10,6 @@ import java.util.ArrayList;
  * Created by 吴俊贤 on 2017/4/3.
  */
 public class TreeTraverse {
-	public static void main(String[] args) {
-//		TreeNode root = null;
-//		root = constructTree(new Integer[]{1, 2, 3, 4, 5, 6, 7, null, null, 8, null, 9, 10}, 0);
-//		root = constructTree(new Integer[]{1, 2, null, 3, null, null, null, 4, null, null, null, null, null, null, null}, 0);//全左子树
-//		root = constructTree(new Integer[]{1, null, 2, null, null, null, 3, null, null, null, null, null, null, null, 4}, 0);//全右子树
-//		root = constructTree(new Integer[]{1}, 0);//单元素
-//		root = constructTree(new Integer[]{}, 0);//空元素
-
-	}
-
 	public static void testConstructTreeQianxuZhongxu(Integer[] nodes) {
 		TreeNode root = constructTree(nodes, 0);
 		ArrayList<Integer> result = new ArrayList<>();
@@ -65,27 +57,21 @@ public class TreeTraverse {
 		}
 	}
 
-	static class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-	}
-
 	/**
 	 * 递归建树，根据数组构建一棵树，null的位置则为没有子女
 	 *
-	 * @param tree
+	 * @param treeVals 树上各节点数值的数组。若该位置为null，则代表为空节点
 	 * @return
 	 */
-	public static TreeNode constructTree(Integer[] tree, int cur) {
-		if (tree == null || cur >= tree.length || tree[cur] == null) {
+	public static TreeNode constructTree(Integer[] treeVals, int cur) {
+		if (treeVals == null || cur >= treeVals.length || treeVals[cur] == null) {
 			return null;
 		}
 
 		TreeNode root = new TreeNode();
-		root.val = tree[cur];
-		root.left = constructTree(tree, cur * 2 + 1);
-		root.right = constructTree(tree, cur * 2 + 2);
+		root.val = treeVals[cur];
+		root.left = constructTree(treeVals, cur * 2 + 1);
+		root.right = constructTree(treeVals, cur * 2 + 2);
 
 		return root;
 	}
@@ -97,7 +83,7 @@ public class TreeTraverse {
 	 * @param tree
 	 * @return
 	 */
-	public static TreeNode constructTree(Integer[] tree) {
+	public static TreeNode constructTreeInLeetCode(Integer[] tree) {
 		if (tree == null || tree.length == 0)
 			return null;
 

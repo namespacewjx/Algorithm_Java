@@ -1,72 +1,69 @@
-import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
 
 public class Main {
-
-/** 请完成下面这个函数，实现题目要求的功能 **/
-	/** 当然，你也可以不按照这个模板来作答，完全按照自己的想法来 ^-^  **/
-
-
-	public static void main(String[] args){
-		Scanner in = new Scanner(System.in);
-
-		ArrayList<Integer> integers = new ArrayList<>();
-
-		while (in.hasNextInt()) {
-			int i = in.nextInt();
-			if (i == 0)
-				break;
-			integers.add(i);
-		}
-
-		int[] tree = buildTree(integers);
-
-		System.out.println(getAllPathSum(tree));
-
-	}
-
-	public static int getAllPathSum(int[] tree) {
-		return traverse(tree, 0, 0);
-	}
-
-	public static int traverse(int[] tree, int cur, int sum) {
-		if (tree[cur] == 0)
-			return sum;
-		sum += tree[cur];
-		return traverse(tree, leftChild(cur), sum) + traverse(tree, rightChild(cur), sum);
-	}
-
-
-
-	public static int[] buildTree(ArrayList<Integer> integers) {
-		int[] tree = new int[15];
-
-		for (Integer integer : integers) {
-			int ceng = integer / 100;
-			int ji = integer % 100 / 10;
-			int num = integer % 10;
-			tree[(int) Math.pow(2, ceng - 1) + ji - 1] = num;
-		}
-
-		return tree;
-	}
-
-	public static int getParent(int index) {
-		return index == 0 ? 0 : (index - 1) / 2;
-	}
-
-	public static int leftChild(int index) {
-		return index * 2 + 1;
-	}
-
-	public static int rightChild(int index) {
-		return index * 2 + 2;
-	}
-
-
-
+public static void main(String[] args) {
 
 }
+}
+
+class pr2 {
+public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	int n = in.nextInt();
+	int[] array = new int[n * 3];
+	for (int i = 0; i < n * 3; i++) {
+		array[i] = in.nextInt();
+	}
+	Arrays.sort(array);
+	long sum = 0;
+	for (int i = n * 3 - 2; i >= n; i -= 2) {
+		sum += array[i];
+	}
+
+	System.out.println(sum);
+}
+}
+
+
+class pr1 {
+public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	int n = in.nextInt();
+	int[] array = new int[n];
+	for (int i = 0; i < n; i++) {
+		array[i] = in.nextInt();
+	}
+
+	System.out.println(sortedSubArray(array));
+}
+
+
+public static int sortedSubArray(int[] array) {
+	if (array.length <= 1)
+		return array.length;
+
+	int count = 1;
+	boolean isAscend = false;
+	boolean lastEqaul = true;
+	for (int i = 0; i < array.length - 1; i++) {
+		if (array[i] == array[i + 1]) {
+			lastEqaul = true;
+			continue;
+		}
+
+		if (lastEqaul) {
+			isAscend = array[i] < array[i + 1];
+			lastEqaul = false;
+			continue;
+		}
+
+		if (isAscend != array[i] < array[i + 1]) {
+			count++;
+			lastEqaul = true;
+		}
+	}
+	return count;
+}
+}
+
+
