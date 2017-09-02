@@ -68,8 +68,7 @@ public class TreeTraverse {
 			return null;
 		}
 
-		TreeNode root = new TreeNode();
-		root.val = treeVals[cur];
+		TreeNode root = new TreeNode(treeVals[cur]);
 		root.left = constructTree(treeVals, cur * 2 + 1);
 		root.right = constructTree(treeVals, cur * 2 + 2);
 
@@ -87,23 +86,20 @@ public class TreeTraverse {
 		if (tree == null || tree.length == 0)
 			return null;
 
-		TreeNode root = new TreeNode();
-		root.val = tree[0];
+		TreeNode root = new TreeNode(tree[0]);
 
 		TreeNode cur = root;
 
 		LinkedList<TreeNode> treeNodes = new LinkedList<>();
 		for (int i = 1; i < tree.length; i++) {
 			if (tree[i] != null) {
-				TreeNode left = new TreeNode();
-				left.val = tree[i];
+				TreeNode left = new TreeNode(tree[i]);
 				cur.left = left;
 				treeNodes.offer(left);
 			}
 			i++;
 			if (i < tree.length && tree[i] != null) {
-				TreeNode right = new TreeNode();
-				right.val = tree[i];
+				TreeNode right = new TreeNode(tree[i]);
 				cur.right = right;
 				treeNodes.offer(right);
 			}
@@ -140,8 +136,7 @@ public class TreeTraverse {
 			return null;
 		}
 
-		TreeNode root = new TreeNode();
-		root.val = qianxu[qStart];
+		TreeNode root = new TreeNode(qianxu[qStart]);
 
 		if (qStart + 1 == qEnd) {
 			//只有一个元素时，返回本元素

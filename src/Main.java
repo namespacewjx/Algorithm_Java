@@ -1,69 +1,54 @@
-import java.util.*;
+    public class Main {
+        public static String[] numChar = new String[]{"零", "壹", "贰", "叁", "肆", "伍", "陆", "柒", "捌", "玖"};
+        public static String[] weiChar = new String[]{"", "拾", "佰", "仟"};
+        public static String[] suffixChar = new String[]{"", "万", "亿"};
 
-public class Main {
-public static void main(String[] args) {
+        public static void main(String[] args) {
+            solve(151121.15);
+        }
 
-}
-}
-
-class pr2 {
-public static void main(String[] args) {
-	Scanner in = new Scanner(System.in);
-	int n = in.nextInt();
-	int[] array = new int[n * 3];
-	for (int i = 0; i < n * 3; i++) {
-		array[i] = in.nextInt();
-	}
-	Arrays.sort(array);
-	long sum = 0;
-	for (int i = n * 3 - 2; i >= n; i -= 2) {
-		sum += array[i];
-	}
-
-	System.out.println(sum);
-}
-}
+        public static String solve(double number) {
+            StringBuilder builder = new StringBuilder();
 
 
-class pr1 {
-public static void main(String[] args) {
-	Scanner in = new Scanner(System.in);
-	int n = in.nextInt();
-	int[] array = new int[n];
-	for (int i = 0; i < n; i++) {
-		array[i] = in.nextInt();
-	}
-
-	System.out.println(sortedSubArray(array));
-}
-
-
-public static int sortedSubArray(int[] array) {
-	if (array.length <= 1)
-		return array.length;
-
-	int count = 1;
-	boolean isAscend = false;
-	boolean lastEqaul = true;
-	for (int i = 0; i < array.length - 1; i++) {
-		if (array[i] == array[i + 1]) {
-			lastEqaul = true;
-			continue;
-		}
-
-		if (lastEqaul) {
-			isAscend = array[i] < array[i + 1];
-			lastEqaul = false;
-			continue;
-		}
-
-		if (isAscend != array[i] < array[i + 1]) {
-			count++;
-			lastEqaul = true;
-		}
-	}
-	return count;
-}
-}
-
-
+            int zheng = (int) number;
+//            double frac = Math.r(number - zheng);
+//            //小数部分
+//            if (frac != 0) {
+//                int digit = (int) (frac * 10);
+//                while (digit > 0) {
+//                    builder.append(numChar[digit]);
+//                    frac = frac * 10 - digit;
+//                    digit = (int) (frac * 10);
+//                }
+//            } else {
+//                builder.append("整");
+//            }
+            //整数部分
+            if (zheng == 0)
+                builder.insert(0, "零元");
+            else {
+                int weishu = (int) (Math.log(zheng) / Math.log(10) + 1);
+                int[] digits = new int[10];
+                int index = 0;
+                while (zheng > 0) {
+                    int high = (int) (zheng / Math.pow(10, weishu - 1));
+                    zheng = (int) (zheng % Math.pow(10, weishu -1));
+                    digits[index] = high;
+                    index++;
+                    weishu--;
+                }
+                int suffixIndex = 0;
+                int weiIndex = 0;
+                int count = 0;
+                for (index--; index >= 0; index--) {
+                    if (count % 4 == 0)
+                        builder.insert(0, suffixChar[count / 4]);
+                    builder.insert(0, weiChar[count % 4]);
+                    builder.insert(0, numChar[digits[index]]);
+                    count++;
+                }
+            }
+            return builder.toString();
+        }
+    }
